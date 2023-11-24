@@ -1,0 +1,37 @@
+ .total{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 2em;
+  }
+.homeStyle{
+    background-color: rgb(42, 42, 47);
+    color: rgb(10, 167, 15);
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 8px;
+} 
+.homeStyle:hover{
+    cursor: pointer;
+}
+.inputHome{
+    width: 25vw;
+    height: 2vh;
+    background-color: #ffffffa1;
+    color: black;
+    gap: 10;
+}
+img{
+    width: auto;
+    height: auto;
+    border: 3px solid rgb(42, 42, 47);
+    border-radius: 0px 0px 20px 20px;
+}
+.imgCargando{
+    width: 3vw;
+}
